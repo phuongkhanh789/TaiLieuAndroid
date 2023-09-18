@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settingsId"
+        android:title="Cấu hình" />
+    <item android:id="@+id/ExitId"
+        android:title="Thoát" />
+</menu>

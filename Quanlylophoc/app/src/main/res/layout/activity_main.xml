@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edittxtIDId"
+            android:inputType="text"
+            android:hint="Id"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edittxtTenId"
+            android:inputType="textPersonName"
+            android:hint="Tên lớp"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edittxtSoSVId"
+            android:inputType="number"
+            android:hint="Sỷ số"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <Button
+            android:id="@+id/btnLoadId"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Load"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/btnThemId"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Thêm"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/btnXoaId"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Xoá"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/btnSuaId"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Sửa"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/btnDongId"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Đóng"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/lstviewLopHocId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="206dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        android:text="Thêm công việc mới"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittxtTenId"
+            android:inputType="textPersonName"
+            android:hint="Tên Công việc"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edittxtTGThucHienId"
+            android:inputType="textPersonName"
+            android:hint="Thời gian thực hiện công việc"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnLuuId"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Lưu"
+            />
+
+        <Button
+            android:id="@+id/btnDongId"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Đóng"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</LinearLayout>

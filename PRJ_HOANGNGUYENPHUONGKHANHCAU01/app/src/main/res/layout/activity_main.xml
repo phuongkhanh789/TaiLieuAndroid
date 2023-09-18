@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageYoutubeId"
+                android:src="@mipmap/youtube_foreground"
+                android:layout_gravity="center"
+                android:layout_width="80sp"
+                android:layout_height="80sp" />
+
+            <TextView
+                android:id="@+id/textvyoutubeId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Youtube"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageHalomeId"
+                android:src="@mipmap/halome_foreground"
+                android:layout_gravity="center"
+                android:layout_width="80sp"
+                android:layout_height="80sp" />
+
+            <TextView
+                android:id="@+id/textvhalomeId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Halome"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

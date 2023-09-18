@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtViewID"
+        android:hint="Id"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#02061f"
+        android:textSize="20dp"
+        android:layout_width="60dp"
+        android:layout_height="80dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewTenID"
+            android:hint="Tên"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#02061F"
+            android:textSize="20dp"
+            android:layout_width="320dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/txtViewSoDienThoaiID"
+            android:hint="Số Điện Thoại"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#02061F"
+            android:textSize="20dp"
+            android:layout_width="320dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

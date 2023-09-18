@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quản lý Khách hàng</string>
+    <string name="menu_Settings">Cấu hình</string>
+    <string name="menu_Exit">Thoát</string>
+</resources>
